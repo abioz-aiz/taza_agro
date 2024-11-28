@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Tazza</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">TAZZA</a>
+
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            <button class="btn">Login</button>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <span class="close-btn">
+            <i class="fas fa-times"></i>
+        </span>
+        <div class="form-wrapper login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <input type="email" required />
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <input type="password" required />
+                    <label for="">Password</label>
+                </div>
+                <div class="options">
+                    <label><input type="checkbox" />Remember Me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button>Login</button>
+                <div class="toggle">
+                    <p>Dont have an account <a href="#">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-wrapper signup">
+            <h2>Sign Up</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <input type="text" required />
+                    <label for="">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <input type="email" required />
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                    <input type="password" required />
+                    <label for="">Password</label>
+                </div>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" />I agree to the terms and conditions
+                    </label>
+                </div>
+                <button>Signup</button>
+                <div class="toggel">
+                    <p>Already have an account?<a class="login-link" href="#">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
