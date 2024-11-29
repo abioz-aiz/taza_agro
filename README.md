@@ -44,17 +44,17 @@ Find the Elaborate Project Presentation [here](https://www.canva.com/design/DAGX
 
 1. Clone the repository:
    
-git clone https://github.com/yourusername/taza.git
+    git clone https://github.com/yourusername/taza.git
  
 2. Install required Python packages:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. Run the Streamlit application:
 
-  Streamlit run Taza/demand/app_1.py
+    Streamlit run Taza/demand/app_1.py
   
-  Streamlit run Taza/price/app.py
+    Streamlit run Taza/price/app.py
 
 4. Access the dashboard at `http://localhost:5000`
 
