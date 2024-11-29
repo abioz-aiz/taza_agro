@@ -1,8 +1,10 @@
-# Taza - Agricultural Price Prediction Dashboard
+# Taaza - Agricultural Price Prediction Dashboard
 
 #### 2nd Prize Winner for the Datanyx 24-hour Datathon organized by AWS MJCET
 
 Taza is a web-based dashboard that provides crop price predictions, weather forecasts, and market insights for agricultural commodities. The application helps farmers and traders make informed decisions about buying and selling agricultural products.
+
+Find the Elaborate Project Presentation [here](https://www.canva.com/design/DAGX2Irlfe8/-YC7V8Z9j-SQ1n5kMLRYHg/view?utm_content=DAGX2Irlfe8&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 ## Features
 
