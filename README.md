@@ -53,6 +53,7 @@ git clone https://github.com/yourusername/taza.git
 3. Run the Streamlit application:
 
   Streamlit run Taza/demand/app_1.py
+  
   Streamlit run Taza/price/app.py
 
 4. Access the dashboard at `http://localhost:5000`
