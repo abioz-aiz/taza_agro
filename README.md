@@ -1,6 +1,6 @@
-[# Taza - Agricultural Price Prediction Dashboard
+# Taza - Agricultural Price Prediction Dashboard
 
-## -- 2nd Prize Winner for the Datanyx 24-hour Datathon organized by AWS MJCET
+####2nd Prize Winner for the Datanyx 24-hour Datathon organized by AWS MJCET
 
 Taza is a web-based dashboard that provides crop price predictions, weather forecasts, and market insights for agricultural commodities. The application helps farmers and traders make informed decisions about buying and selling agricultural products.
 
@@ -60,13 +60,21 @@ git clone https://github.com/yourusername/taza.git
 Taza/
 
 ├── demand/
-│   └── app_1.py         # Main Streamlit application
+
+│   └── app_1.py  # Main Streamlit application
+
 ├── static/
+
 │ ├── daash.js # Dashboard functionality
+
 │ └── chat.js # Chat widget functionality
+
 ├── templates/
+
 │ └── dashboard.html # Main dashboard template
+
 └── model_data.pkl # Trained machine learning model for demand forecasting
+
 └── final_price_prediction_model.pkl # Trained machine learning model for Price Prediction
 
 
@@ -93,11 +101,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Weather data provided by [https://www.meteoblue.com/en/weather/maps/index#coords=4/17.38/78.46&map=windAnimation~rainbow~auto~10%20m%20above%20gnd~none]
-- Market data sourced from [https://github.com/abioz-aiz/taza_agro/blob/main/Datasets/final_final_dataset.csv]
+- Weather data provided by [Meteoblue Weather Maps](https://www.meteoblue.com/en/weather/maps/index#coords=4/17.38/78.46&map=windAnimation~rainbow~auto~10%20m%20above%20gnd~none)
+- Market data sourced from [Taza Agro Dataset](https://github.com/abioz-aiz/taza_agro/blob/main/Datasets/final_final_dataset.csv)
 - Tableau Public for visualization support
 
 ## Contact
 
-Zoiba Zia (https://www.linkedin.com/in/zoiba/)
-Project Link: [https://github.com/yourusername/taza](https://github.com/yourusername/taza)](https://www.linkedin.com/in/zoiba/)
+[Zoiba Zia](https://www.linkedin.com/in/zoiba/) - LinkedIn
+Project Link: [github.com/abioz-aiz/taza_agro](https://github.com/abioz-aiz/taza_agro)
